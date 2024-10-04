@@ -38,7 +38,7 @@ const handleSubmit = async (event) => {
   };
 
   try {
-    const response = await fetch('https://backend-port-3zimse4nd-mayurs-projects-8cc1d65f.vercel.app/api/sendEmail', {
+    const response = await fetch('https://backend-port-two.vercel.app/api/sendEmail', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
