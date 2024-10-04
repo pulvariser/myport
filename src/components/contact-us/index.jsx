@@ -32,6 +32,7 @@ const handleSubmit = async (event) => {
 
   const formData = {
     fullname: event.target.fullname.value,
+    subject:event.target.subject.value,
     email: event.target.email.value,
     mobile: event.target.mobile.value,
     message: event.target.message.value,
