@@ -26,6 +26,38 @@ const details = [
   },
 ]
 
+
+const handleSubmit = async (event) => {
+  event.preventDefault();
+
+  const formData = {
+    fullname: event.target.fullname.value,
+    email: event.target.email.value,
+    mobile: event.target.mobile.value,
+    message: event.target.message.value,
+  };
+
+  try {
+    const response = await fetch('https://backend-port-two.vercel.app/api/sendEmail', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(formData),
+    });
+
+    const result = await response.json();
+    if (response.ok) {
+      alert('Your message has been sent!');
+    } else {
+      alert('Failed to send message: ' + result.message);
+    }
+  } catch (error) {
+    console.error('Error sending message:', error);
+    alert('An error occurred. Please try again.');
+  }
+};
+
   return (
     <div className='min-h-screen max-w-full space-y-16 mt-16 mb-10'>
     <div className=' flex items-center justify-center flex-col gap-2 '>
@@ -87,26 +119,26 @@ const details = [
                     </div>
 
                     <div>
-                        <form className='flex items-center gap-5 flex-col' >
+                        <form className='flex items-center gap-5 flex-col' onSubmit={handleSubmit}>
                          <div className='grid md:grid-cols-2 gap-6'>
                              <input type='text' name='fullname' className='rounded-[4px] font-poppins font-[400] text-[16px] px-4 py-3 outline-none border border-solid border-[#ddd] bg-[#fff] text-[rgb(102,102,102)] placeholder-[#666] transition duration-150 ease-in-out
-                            focus:border-[#fa2d5a] focus:shadow-md focus:shadow-blue-200
+                            focus:border-[#fa2d5a] focus:shadow-md 
                             focus:outline-none' placeholder='Your Name' required/>
                              
                              <input type='email' name='email' className='rounded-[4px] font-poppins font-[400] outline-none text-[16px] px-4 py-3 border border-solid border-[#ddd] bg-[#fff] text-[rgb(102,102,102)] placeholder-[#666] transition duration-150 ease-in-out
-                            focus:border-[#fa2d5a] focus:shadow-md focus:shadow-blue-200
+                            focus:border-[#fa2d5a] focus:shadow-md 
                             focus:outline-none' placeholder='Your Email' required/>
                              
                              <input type='text' name='subject' className='rounded-[4px] font-poppins font-[400] outline-none text-[16px] px-4 py-3 border border-solid border-[#ddd] bg-[#fff] text-[rgb(102,102,102)] placeholder-[#666] transition duration-150 ease-in-out
-                            focus:border-[#fa2d5a] focus:shadow-md focus:shadow-blue-200
+                            focus:border-[#fa2d5a] focus:shadow-md 
                             focus:outline-none' placeholder='Write a Subject' required/>
                              
                              <input type='number' name='mobile' className='rounded-[4px] font-poppins font-[400] outline-none text-[16px] px-4 py-3 border border-solid border-[#ddd] bg-[#fff] text-[rgb(102,102,102)] placeholder-[#666] transition duration-150 ease-in-out
-                            focus:border-[#fa2d5a] focus:shadow-md focus:shadow-blue-200
+                            focus:border-[#fa2d5a] focus:shadow-md 
                             focus:outline-none' placeholder='Phone Number' required/>
                              
                              <textarea name='message' className='col-span-2 h-36 rounded-[4px] font-poppins font-[400] outline-none text-[16px] px-4 py-3 border border-solid border-[#ddd] bg-[#fff] text-[rgb(102,102,102)] placeholder-[#666] p-2 transition duration-150 ease-in-out
-                            focus:border-[#fa2d5a] focus:shadow-md focus:shadow-blue-200
+                            focus:border-[#fa2d5a] focus:shadow-md 
                             focus:outline-none' placeholder='Your Message...' required ></textarea>
 
                              </div >    
