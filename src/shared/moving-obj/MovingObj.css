@@ -1,0 +1,25 @@
+.moving-dot {
+    width: 0.75rem; /* 12px */
+    height: 0.75rem;
+    position: absolute;
+    top: -0.3rem; /* -6px to place it slightly outside the top edge */
+    left: -0.4rem; /* Start at the top-left corner */
+    background-color: #fa2d5a;
+    border-radius: 50%;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    
+    /* Add animation */
+    animation: move-across 3s linear infinite;
+  }
+  
+  /* Keyframe animation to move the dot horizontally across the div */
+  @keyframes move-across {
+    0% {
+      left: -0.4rem; /* Start at the left edge */
+    }
+    100% {
+      left: calc(100% - 0.75rem); /* Move to the right edge */
+    }
+  }
+  
