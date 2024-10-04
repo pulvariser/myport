@@ -43,17 +43,29 @@ const handleSubmit = async (event) => {
       headers: {
         'Content-Type': 'application/json',
       },
-      mode: 'no-cors',
+      // Removed 'no-cors' mode to allow access to the response body
       body: JSON.stringify(formData),
     });
 
+    // Log the raw response for debugging
+    console.log('Raw response:', response);
+
+    // Check if the response is OK before parsing JSON
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+
+    // Attempt to parse the response as JSON
     const result = await response.json();
+    console.log('Response JSON:', result);
+
     if (response.ok) {
       alert('Your message has been sent!');
     } else {
       alert('Failed to send message: ' + result.message);
     }
   } catch (error) {
+    // Log the error and alert the user
     console.error('Error sending message:', error);
     alert('An error occurred. Please try again.');
   }
