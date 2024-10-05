@@ -32,8 +32,8 @@ function AppContent() {
   useEffect(() => {
     const downloadFile = () => {
       const link = document.createElement('a');
-      link.href = '/mayurTemp.pdf'; // relative path to your PDF in the public folder
-      link.download = 'mayurTemp.pdf'; // Optional: specify download file name
+      link.href = '/mayur-res.pdf'; // relative path to your PDF in the public folder
+      link.download = 'mayur-res.pdf'; // Optional: specify download file name
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link); // Clean up after download

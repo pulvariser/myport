@@ -16,7 +16,7 @@ const  About  = () => {
       },
       {  
         info:'email :',
-        value:'mayurburange72@gmail.com'
+        value:'mayurfreelance1212@gmail.com'
       },
       {  
        info:'date of birth :',
@@ -40,7 +40,7 @@ const  About  = () => {
      },
      {  
       info:'Address :',
-       value:'Karve Nagar Pune 442001'
+       value:'Karve Nagar Pune 411052'
      },
      {  
       info:'freelance :',
@@ -48,7 +48,7 @@ const  About  = () => {
      },
      {  
       info:'website :',
-       value:' www.mywebsite.com'
+       value:' https://myport-blush.vercel.app'
      },
     
    ]
@@ -88,8 +88,8 @@ const  About  = () => {
 
       const downloadFile = () => {
         const link = document.createElement('a');
-        link.href = '/mayurTemp.pdf'; // relative path or external URL
-        link.download = 'mayurTemp.pdf'; // Optional: specify download name
+        link.href = '/mayur-res.pdf'; // relative path or external URL
+        link.download = 'mayur-res.pdf'; // Optional: specify download name
         link.click();
       };
 
@@ -127,7 +127,7 @@ const  About  = () => {
                        return(
                         <li key={index} className='flex gap-2 '>
                            <span className='capitalize font-[600] font-poppins text-[#666666] text-[15px] opacity-[1]'>{information.info}</span>
-                           <span className='font-[400] font-poppins text-[#666666] text-[15px] opacity-[0.85]'>{information.value}</span>
+                           <span className='font-[400] font-poppins text-[#666666] text-[13px] opacity-[0.85]'>{information.value}</span>
                         </li>
                       )})
                   }

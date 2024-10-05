@@ -7,22 +7,22 @@ const details = [
   {
     icon : 'fa fa-map-marker  text-[#fa2d5a]',
     title : 'location',
-    desc : '14 Sti Kilda Road, 1412 New York, USA'
+    desc : 'Karve Nagar Pune 411052'
   },
   {
     icon : 'fa fa-phone text-[#fa2d5a]',
-    title : 'location',
-    desc : '14 Sti Kilda Road, 1412 New York, USA'
+    title : 'Phone Number',
+    desc : '+91 9823662058'
   },
   {
     icon : 'fa fa-envelope text-[#fa2d5a]',
     title : 'location',
-    desc : '14 Sti Kilda Road, 1412 New York, USA'
+    desc : 'mayurfreelance1212@gmail.com'
   },
   {
     icon : 'fa fa-globe text-[#fa2d5a]',
-    title : 'location',
-    desc : '14 Sti Kilda Road, 1412 New York, USA'
+    title : 'website',
+    desc : 'https://myport-blush.vercel.app/'
   },
 ]
 
@@ -95,7 +95,7 @@ const handleSubmit = async (event) => {
 
                 <div>
                    <p className='font-[400] leading-[1.9] font-poppins text-[#666]'>
-                     I Am Available for Freelance Work. Connect with Me via <br/> <span className='font-[600]'>Phone:</span> <span className='text-[#fa2d5a]'>+12 125 124 8574</span> or <span className='font-[600]'>Email:</span><span className='text-[#fa2d5a]'> admin@example.com</span>
+                     I Am Available for Freelance Work. Connect with Me via <br/> <span className='font-[600]'>Phone:</span> <span className='text-[#fa2d5a]'>9823662058</span> or <span className='font-[600]'>Email:</span><span className='text-[#fa2d5a]'> mayurfreelance1212.com</span>
                    </p>
                 </div>
 
@@ -112,7 +112,7 @@ const handleSubmit = async (event) => {
                                  
                                  <div>
                                      <p className='capitalize font-[500] font-poppins text-[16px] text-[#666]'>{detail.title}</p>
-                                     <p className='capitalize font-[400] font-poppins text-[14px] text-[#666] opacity-[0.8]'>{detail.desc}</p>
+                                     <p className='font-[400] font-poppins text-[14px] text-[#666] opacity-[0.8]'>{detail.desc}</p>
                                  </div>
                                   
                                  </div>

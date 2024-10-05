@@ -26,19 +26,19 @@ const Resume = () => {
                     <div className="text-[#fa2d5a] text-lg">
                       <i className="fa fa-envelope  "></i>
                       </div>
-                      <p>mayurburange72@gmail.com</p>
+                      <p>mayurfreelance1212@gmail.com</p>
                     </div>
                     <div className="flex gap-4 items-center">
                     <div className="text-[#fa2d5a] text-lg">
                       <i className="fa fa-home  "></i>
                       </div>
-                      <p>st.dhyneshwar nagar wardha</p>
+                      <p>Karve Nagar Pune 411052</p>
                     </div>
                     <div className="flex gap-4 items-center">
                     <div className="text-[#fa2d5a] text-lg">
                       <i className="fa fa-globe  "></i>
                       </div>
-                      <p>123@gamil.com</p>
+                      <p>https://myport-blush.vercel.app</p>
                     </div>
                   </div>
 
