@@ -43,7 +43,7 @@ function AppContent() {
   }, []); // Empty dependency array ensures it runs only once on mount
 
   return (
-    <div>
+    <div >
       {loading && <Loader />}
       <Leyout>
         <Routes>

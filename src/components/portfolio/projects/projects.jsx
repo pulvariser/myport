@@ -72,7 +72,7 @@ const Projects = () => {
   return (
     <>
       <div className='ml-32 w-fit mb-20 mt-10'>
-        <ul className='w-full grid grid-cols-3 gap-8'>
+        <ul className='w-full md:grid md:grid-cols-3 gap-8'>
           {projects.map((project, index) => {
             return (
               <li key={index}>

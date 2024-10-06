@@ -5,7 +5,7 @@ import MovingObj from '../../shared/moving-obj'
 
 const Portfolio= () => {
   return (
-    <div className='min-h-screen w-full mt-16 '>
+    <div className='min-h-screen md:w-full mt-16 '>
          <div className='flex items-center justify-center flex-col gap-2'>
                  <p className='text-[14px]  px-[10px]  inline-block  py-[1px] font-poppins bg-[#fa2d5a] rounded-[4px] font-[500] leading-[26px] text-[#fff] shadow'>
                     My Portfolio

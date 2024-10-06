@@ -116,7 +116,7 @@ const Home = () => {
                 <section className='space-y-4'>
                    <h2 className='text-[1E2125] text-center lg:text-start sm:text-start md:text-start uppercase font-semibold' style={{letterSpacing:'3px'}}>Best Skills</h2>
                    <div>
-                       <ul className='grid grid-cols-3 gap-6'>
+                       <ul className='md:grid md:grid-cols-3 md:gap-6 sm:grid sm:gap-2 ' >
                         {
                           bestSkills.map((bestSkill,index)=>{
                             return(

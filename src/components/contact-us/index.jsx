@@ -105,7 +105,7 @@ const handleSubmit = async (event) => {
                           details.map((detail,index)=>{
                             return(
                               <li key={index}>
-                                 <div className=' font-[400] leading-[24px] text-[#8e8e8e]  border-[1px] border-solid border-[#ddd] rounded-[4px] px-[10px] py-[14px]  flex items-start gap-4  '>
+                                 <div className=' font-[400] leading-[12px] text-[#8e8e8e]  border-[1px] border-solid border-[#ddd] rounded-[4px] px-[10px] py-[14px]  flex items-start gap-4  '>
                                   <div className='bg-[#eee] w-[50px] h-[50px] flex items-center justify-center rounded-[40px]'>
                                    <i className={detail.icon} style={{fontSize:'24px'}}></i>
                                    </div>

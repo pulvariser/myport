@@ -2,7 +2,7 @@ import React from "react";
 
 const Resume = () => {
   return (
-  <div className="w-[800px] min-h-full mx-auto my-10 relative ">
+  <div className="md:w-[800px] min-h-full mx-auto my-10 relative ">
     <div className="bg-[#6588f8] p-8 flex flex-col items-center">
      <div className="flex bg-[#fff] p-6 rounded-lg w-full shadow-lg mt-6 relative overflow-hidden">
        <section className="w-full font-poppins text-[#545454] text-[11px]">
@@ -185,24 +185,25 @@ const Resume = () => {
                               P.M.K.V.Y Skill India 
                            </h2>
                            <h3 className="text-[#545454] font-[500]">Softare Developement Training & Certification</h3>
-                           <ul className="mt-2">
-                              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, maxime?
-                              </li>
-                              <li>Duration : 3 Months
-                              </li>
+                           <ul className="mt-2 list-disc" >
+                              <li>Get the knowledge about IT servies and Industry.</li>
+                              <li>  Process of Software & Application Development.</li>
+                              <li>  Work requirements,Tools and Software for job role </li>                            
                            </ul>
+                              <p>Duration : 3 Months </p>
                         </div>
                         <div>
                            <h2 className="text-[#000000] text-[14px] font-[500] ">
                               Maha Mission Education & Carrier Council
                            </h2>
                            <h3 className="text-[#545454] font-[500]"> Full Stack Web Developement with AI Training & Certification</h3>
-                           <ul className="mt-2">
-                              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, maxime?
-                              </li>
-                              <li>Duration : 8 Months
+                           <ul className="mt-2 list-disc">
+                              <li>Develop custom web design solutions</li>
+                               <li>Collaborated with businesses and helped them build powerful websites             
                               </li>
                            </ul>
+                              <p>Duration : 8 Months
+                              </p>
                         </div>
                         {/* <div>
                            <h2 className="text-[#000000] font-[500] ">

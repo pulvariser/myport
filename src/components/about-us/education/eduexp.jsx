@@ -51,7 +51,7 @@ const EduExp = () => {
 
 
   return (
-       <section className='ml-28 mr-28 grid grid-cols-2 gap-8 '>
+       <section className='ml-28 mr-28 grid md:grid-cols-2 gap-8 '>
            <aside className=' space-y-8'>
                     <div className='mr-28 flex items-start flex-col gap-1 justify-start'>
                             <h2 className='text-[#4671ff] text-[26px] font-[600] capitalize font-poppins '>My Education</h2>

@@ -19,7 +19,7 @@ const Skills = () => {
       </div>
 
       <div className='min-h-fit flex items-center justify-center '>
-        <ul className='grid grid-cols-3 gap-7 mr-28'>
+        <ul className='grid md:grid-cols-3 gap-7 mr-28'>
           {skills.map((skill, index) => {
             const skillPercentage = parseInt(skill.percent, 10); // Convert percent string to a number
 
