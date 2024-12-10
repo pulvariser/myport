@@ -4,7 +4,7 @@ import 'antd/dist/reset.css';  // Ensure you have this to reset Ant Design style
 
 const Projects = () => {
   const [isModalOpen, setIsModalOpen] = useState(false); // Updated state variable name
-  const [selectedProject, setSelectedProject] = useState({ images: [], label: '', path: '' });
+  const [selectedProject, setSelectedProject] = useState({ images: [], label: '', path: '',github:'' });
 
   const projects = [
     {
@@ -15,6 +15,7 @@ const Projects = () => {
         '/estate4-ss.png',
       ],
       path: 'https://mern-estate-react-app.onrender.com/',
+      github:'https://github.com/pulvariser/mern_estate_react_app',
       label: 'MERN Estate',
     },
     {
@@ -26,26 +27,31 @@ const Projects = () => {
         
     ],
       path: 'https://myport-blush.vercel.app/',
+      github:'https://github.com/pulvariser/mern_estate_react_app',
       label: 'My Portfolio',
     },
     {
       images: ['/expense-ss.png','/expense2-ss.png'],
       path: 'https://expense-trackerr-react-app.netlify.app/',
+      github:'https://github.com/pulvariser/expense-tracker',
       label: 'Expense Tracker',
     },
     {
-      images: ['/project.jpg'],
-      path: '#',
-      label: 'Working on a site',
+      images: ['/bhumi1.jpg','/bhumi2.jpg','/bhumi3.jpg','/bhumi4.jpg','/bhumi5.jpg'],
+      path: 'https://bhumizcart.onrender.com/',
+      github:'https://github.com/pulvariser/amazoona',
+      label: 'BhumizCart',
+    },
+    {
+      images: ['/blog1.jpg','/blog2.jpg','/blog3.jpg'],
+      path: 'working on a site',
+      github:'https://github.com/pulvariser/mern-blog',
+      label: 'Trending Blog',
     },
     {
       images: ['/project.jpg'],
       path: '#',
-      label: 'Working on a site',
-    },
-    {
-      images: ['/project.jpg'],
-      path: '#',
+      github:'#',
       label: 'Working on a site',
     },
   ];
@@ -122,6 +128,7 @@ const Projects = () => {
 
         <p>Project Name: {selectedProject.label}</p>
         <p>Link: <a href={selectedProject.path} target="_blank" rel="noopener noreferrer">{selectedProject.path}</a></p>
+        <p>github: <a href={selectedProject.github} target="_blank" rel="noopener noreferrer">{selectedProject.github}</a></p>
       </Modal>
     </>
   );

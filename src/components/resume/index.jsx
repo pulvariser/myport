@@ -148,10 +148,26 @@ const Resume = () => {
                         <p className="font-[400]"> R.T.M. Nagpur University</p>
                         <p>2015-2020</p>
                      </div>
-
-
-                 
                   </div>
+
+                  {/* {Soft Skill} */}
+                  <div className="flex flex-col gap-3">
+                     <div>
+                     <h1 className="capitalize text-[#fa2d5a]  font-poppins text-xl">Soft Skills</h1>
+                     </div>
+                       <ul className="list-disc">
+                         <li>Problem Solving</li>
+                         <li>Adaptibility</li>
+                         <li>Time Management</li>
+                         <li>Teamwork</li>
+                         <li>Leadership</li>
+                         <li>Decision-making</li>
+                         <li>Collaborative</li>
+                         <li>Api Integration / Microservices</li>
+                         <li>Planning / Analize</li>
+                       </ul>
+                  </div>
+
                    
                </article>
                <article className="space-y-5">
@@ -186,9 +202,10 @@ const Resume = () => {
                            </h2>
                            <h3 className="text-[#545454] font-[500]">Softare Developement Training & Certification</h3>
                            <ul className="mt-2 list-disc" >
-                              <li>Get the knowledge about IT servies and Industry.</li>
-                              <li>  Process of Software & Application Development.</li>
-                              <li>  Work requirements,Tools and Software for job role </li>                            
+                              <li>Trained in Backend Development using Nodejs with Express and MongoDB.</li>
+                              <li>Knowledge of IT services and industry, Delivery models.</li>
+                              <li>Process of Software & Application Development (SDLC).</li>                            
+                              <li>Work requirements, Tools and Software job role.</li>                            
                            </ul>
                               <p>Duration : 3 Months </p>
                         </div>
@@ -198,9 +215,11 @@ const Resume = () => {
                            </h2>
                            <h3 className="text-[#545454] font-[500]"> Full Stack Web Developement with AI Training & Certification</h3>
                            <ul className="mt-2 list-disc">
-                              <li>Develop custom web design solutions</li>
-                               <li>Collaborated with businesses and helped them build powerful websites             
-                              </li>
+                              <li>Developed custom web design solution for the clients.</li>
+                               <li>Collaborated with businesses and helped to solve the business problems.</li>
+                               <li>Skilled in teamwork, adaptability and timely deliveries.</li>
+                               <li>Participated in various coding platforms like Hacker Rank, Code zinger,
+                               Leetcode.</li>
                            </ul>
                               <p>Duration : 8 Months
                               </p>
@@ -230,17 +249,26 @@ const Resume = () => {
                                MERN Estate
                            </h2>
                            <ul>
-                              <li>Real Estate is a leading real estate agency that specializes in helping clients buy, sell,and rent properties in the most desired location. (Advanced Authentication Search functionality React Router DOM, Google OAUTH  intigration, Redux, CRUD etc.)
+                               <li><h3>Tech Stack: JavaScript, NodeJS, ReactJs, ExpressJs MongoDB.
+                               ( MERN/Full Stack )</h3></li>
+                              <li>Real Estate is a leading real estate agency that specializes in helping clients buy, 
+sell and rent property in the most desirable neighborhood. ( Seamless search 
+functionality, Advanced Authentication, Google OAUTH, Redux, CRUD etc)
+
                               </li>
                              
                            </ul>
                         </div>
                         <div>
                            <h2 className="text-[#000000] text-[14px] font-[500] ">
-                               MERN Blog
+                           BhumizCart(E- Commerce Shopping Cart)
                            </h2>
                            <ul>
-                              <li>Robust authentication using JSON Web Tokens and Google OAuth integration, all powered by Redux Toolkit for easy state management. Secure both the client and backend for specific pages.like the admin dashboard.ability to effortlessly manage posts, comments, and users.
+                           <li><h3>Tech Stack: JavaScript, NodeJS, ReactJs, ExpressJs MongoDB.
+                           ( MERN/Full Stack )</h3></li>
+                              <li>Build a fully-functional e-commerce website like amazon. Using MERN
+Stack create sign-in, signup, cart, payment, payment Gateway methods
+and Deploy on site using render.com
                               </li>
                            </ul>
                         </div>
@@ -249,16 +277,22 @@ const Resume = () => {
                                Expense Tracker
                            </h2>
                            <ul>
-                              <li>Add your daily expenses or Items you have sold and get the details to your daily expense and earnings with the help of candel chart feature. (useState ,useEffect Hooks props, add ,delete etc.)
+                           <li><h3>Tech Stack: Netlify, NodeJS, ReactJs, ExpressJs MongoDB.
+                           ( MERN/Full Stack )</h3></li>
+                              <li>Add your daily expenses or Items you have sold and get the details to your daily expense and earnings with the help of candel chart feature. (useState ,useEffect Hooks props, add ,delete feature etc.)
                               </li>
                            </ul>
                         </div>
                         <div>
                            <h2 className="text-[#000000] text-[14px] font-[500] ">
-                               RentoMojo
+                               My Portfolio
                            </h2>
                            <ul>
-                              <li>Why renting, you ask? Well, because we understand that unnecessary furniture and appliance costs are not the best investment options.We provide more than online rental services,With our assured quality and prompt services,you can say goodbye to all the hassles that come with buying and say hello to convenience.
+                           <li><h3>Tech Stack: Vercel, NodeJS, ReactJs, ExpressJs Tailwind.
+                          </h3></li>
+                              <li>My Portfolio is my personal portfolio with resume downloadable links, and one 
+stop to see my all the projects and work (ant-design, framer motion, 
+animations, react router.)
                               </li>
                            </ul>
                         </div>

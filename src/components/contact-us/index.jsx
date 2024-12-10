@@ -95,7 +95,7 @@ const handleSubmit = async (event) => {
 
                 <div>
                    <p className='font-[400] leading-[1.9] font-poppins text-[#666]'>
-                     I Am Available for Freelance Work. Connect with Me via <br/> <span className='font-[600]'>Phone:</span> <span className='text-[#fa2d5a]'>9823662058</span> or <span className='font-[600]'>Email:</span><span className='text-[#fa2d5a]'> mayurfreelance1212.com</span>
+                     I Am Available for Freelance Work. Connect with Me via <br/> <span className='font-[600]'>Phone:</span> <span className='text-[#fa2d5a]'>9823662058</span> or <span className='font-[600]'>Email:</span><span className='text-[#fa2d5a]'> mayurfreelance1212@gmail.com</span>
                    </p>
                 </div>
 
