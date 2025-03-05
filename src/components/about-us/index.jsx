@@ -16,7 +16,7 @@ const  About  = () => {
       },
       {  
         info:'email :',
-        value:'mayurfreelance1212@gmail.com'
+        value:'dev97techsunset@gmail.com'
       },
       {  
        info:'date of birth :',
@@ -32,7 +32,7 @@ const  About  = () => {
       },
      {  
       info:'phone :',
-       value:'+91 9823662058'
+       value:'+91 7666895303'
      },
      {  
       info:'nationlity :',
@@ -40,7 +40,7 @@ const  About  = () => {
      },
      {  
       info:'Address :',
-       value:'Karve Nagar Pune 411052'
+       value:'Nalwadi Wardha 442001'
      },
      {  
       info:'freelance :',
@@ -76,7 +76,7 @@ const  About  = () => {
     // },
     {
       icon:'fa fa-code',
-      text:'1200+ Lines of Codes'
+      text:'12000+ Lines of Codes'
     },
    ]
   
@@ -108,7 +108,7 @@ const  About  = () => {
      
      <div className='md:grid md:grid-cols-3 md:ml-28  my-20 sm:mr-5 md:overflow-hidden sm:overflow-hidden'>
           <div>
-             <img src='/blazerImg.png' alt="aboutimg" className='rounded-[10px]  h-full w-[100%]  object-cover ' style={{boxShadow:' 0 7px 15px rgba(0, 0, 0, 0.12)',border:'5px solid rgba(0, 0, 0, 0.05)'}} />
+             <img src='/emp4.png' alt="aboutimg" className='rounded-[10px]  h-full w-[100%]  object-cover ' style={{boxShadow:' 0 7px 15px rgba(0, 0, 0, 0.12)',border:'5px solid rgba(0, 0, 0, 0.05)'}} />
           </div>
           <div className='ml-12 flex flex-col gap-6 col-span-2 pr-28 sm:relative sm:left-16' >
              <div className="sm:mt-8">

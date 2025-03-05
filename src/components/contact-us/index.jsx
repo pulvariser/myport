@@ -7,17 +7,17 @@ const details = [
   {
     icon : 'fa fa-map-marker  text-[#fa2d5a]',
     title : 'location',
-    desc : 'Karve Nagar Pune 411052'
+    desc : 'Nalwadi Wardha 442001'
   },
   {
     icon : 'fa fa-phone text-[#fa2d5a]',
     title : 'Phone Number',
-    desc : '+91 9823662058'
+    desc : '+91 7666895303'
   },
   {
     icon : 'fa fa-envelope text-[#fa2d5a]',
     title : 'location',
-    desc : 'mayurfreelance1212@gmail.com'
+    desc : 'dev97techsunset@gmail.com'
   },
   {
     icon : 'fa fa-globe text-[#fa2d5a]',
@@ -95,7 +95,7 @@ const handleSubmit = async (event) => {
 
                 <div>
                    <p className='font-[400] leading-[1.9] font-poppins text-[#666]'>
-                     I Am Available for Freelance Work. Connect with Me via <br/> <span className='font-[600]'>Phone:</span> <span className='text-[#fa2d5a]'>9823662058</span> or <span className='font-[600]'>Email:</span><span className='text-[#fa2d5a]'> mayurfreelance1212@gmail.com</span>
+                     I Am Available for Freelance Work. Connect with Me via <br/> <span className='font-[600]'>Phone:</span> <span className='text-[#fa2d5a]'>7666895303</span> or <span className='font-[600]'>Email:</span><span className='text-[#fa2d5a]'> dev97techsunset@gmail.com</span>
                    </p>
                 </div>
 
@@ -111,8 +111,8 @@ const handleSubmit = async (event) => {
                                    </div>
                                  
                                  <div>
-                                     <p className='capitalize font-[500] font-poppins text-[16px] text-[#666]'>{detail.title}</p>
-                                     <p className='font-[400] font-poppins text-[14px] text-[#666] opacity-[0.8]'>{detail.desc}</p>
+                                     <p className='capitalize font-[500] font-poppins text-[16px]  text-[#666]'>{detail.title}</p>
+                                     <p className='font-[400] font-poppins text-[14px] text-[#666] mt-4 opacity-[0.8]'>{detail.desc}</p>
                                  </div>
                                   
                                  </div>

@@ -2,6 +2,13 @@ import React from 'react'
 import { useNavigate } from "react-router-dom";
 import Image from '../../images/bg-img2.jpeg'
 import { Typewriter } from 'react-simple-typewriter'
+import Portfolio from '../portfolio';
+import Resume from '../resume';
+import About from '../about-us';
+import Contact from '../contact-us';
+import FloatingButtons from '../../shared/floating-btn';
+import Skills from '../../shared/skillsdata';
+
 
 const Home = () => {
        
@@ -74,6 +81,7 @@ const Home = () => {
     ]
     
   return (
+   <div >
     <div className='overflow-hidden relative w-full h-screen'>
           <div >
               <img src={Image} alt='main' className='w-full h-screen object-cover'/>
@@ -133,7 +141,18 @@ const Home = () => {
                    </div>
                 </section>
           </div>
-    </div>
+
+           <FloatingButtons/>
+    </div> 
+          
+          <Portfolio/>
+          <Skills/>
+          <Resume/>
+          <About/>
+          <Contact/>
+          
+
+      </div>    
   )
 }
 

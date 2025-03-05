@@ -28,16 +28,16 @@ const EduExp = () => {
 
    const expDetails = [
     {
-      duration : 'April 2024 - July 2024',
-      title : 'Software Developement',
-      subTitle : 'p.m.k.v.y. Skill India',
-      desc : 'I have completed  Skill India Software Product Developement Course & Training with 80% score and certificate of honor.'
+      duration : 'Jan 2022 - Feb 2025',
+      title : 'TechSunset',
+      subTitle : 'Full Stack Web Developer (3+ Years)',
+      desc : 'TechSunset IT service based company, which deals in web and mobile application developement.'
     },
     {
-      duration : 'Jan 2024 - Aug 2024',
-      title : 'Full Stack Developement (AI)',
-      subTitle : 'MMEAC pune',
-      desc : 'I have completed the Full Stack Software Developement With AI Course & Training with certification.'
+      duration : 'Jan 2021 - Dec 2021',
+      title : 'Wap Institue',
+      subTitle : 'Online Institution',
+      desc : 'I have completed the MERN Stack Software Developement Course & Training with certification.'
     },
     // {
     //   duration : '2015 - 2020',

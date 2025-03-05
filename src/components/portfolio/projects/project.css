@@ -1,0 +1,5 @@
+/* Custom scroll animation */
+.group:hover img {
+    transform: translateY(calc(-100% + 20rem));
+    transition: transform 5s ease-in-out;
+  }

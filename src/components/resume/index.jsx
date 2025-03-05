@@ -1,8 +1,22 @@
 import React from "react";
+import MovingObj from "../../shared/moving-obj";
+import { FaGlobe } from "react-icons/fa6";
 
 const Resume = () => {
   return (
+    <>
+           <div className='flex items-center justify-center flex-col gap-2'>
+                 <p className='text-[14px]  px-[10px]  inline-block  py-[1px] font-poppins bg-[#fa2d5a] rounded-[4px] font-[500] leading-[26px] text-[#fff] shadow'>
+                    My Resume
+                  </p>
+                  <h2 className='text-[#fa2d5a] font-poppins text-[52px] font-[900] uppercase'><span className='text-[#4671ff] font-poppins text-[52px] font-[900] uppercase'>MY RESUME  </span>SECTION.</h2>
+                  
+                    <MovingObj/>
+
+                  <p className='text-[16px] leading-[1.8] text-[#6a6a6a] font-[400]  font-poppins max-w-[700px] text-center mt-4'>"Take a look at  my resume to know all about me in one place "</p>
+         </div>
   <div className="md:w-[800px] min-h-full mx-auto my-10 relative ">
+
     <div className="bg-[#6588f8] p-8 flex flex-col items-center">
      <div className="flex bg-[#fff] p-6 rounded-lg w-full shadow-lg mt-6 relative overflow-hidden">
        <section className="w-full font-poppins text-[#545454] text-[11px]">
@@ -20,25 +34,29 @@ const Resume = () => {
                       <div className="text-[#fa2d5a] text-lg">
                       <i className="fa fa-phone  "></i>
                       </div>
-                      <p>+91 9823662058</p>
+                      <p>+91 7666895303</p>
                     </div>
                     <div className="flex gap-4 items-center text-[#545454]">
                     <div className="text-[#fa2d5a] text-lg">
                       <i className="fa fa-envelope  "></i>
                       </div>
-                      <p>mayurfreelance1212@gmail.com</p>
+                      <a href="mailto:dev97techsunset@gmail.com">
+                      <p className="text-blue-700">dev97techsunset@gmail.com</p>
+                      </a>
                     </div>
                     <div className="flex gap-4 items-center">
                     <div className="text-[#fa2d5a] text-lg">
                       <i className="fa fa-home  "></i>
                       </div>
-                      <p>Karve Nagar Pune 411052</p>
+                      <p>Nalwadi Wardha, 411052</p>
                     </div>
                     <div className="flex gap-4 items-center">
                     <div className="text-[#fa2d5a] text-lg">
-                      <i className="fa fa-globe  "></i>
+                      <i className="fa fa-globe"></i>
                       </div>
-                      <p>https://myport-blush.vercel.app</p>
+                      <a href="https://myport-blush.vercel.app">
+                      <p className="text-blue-700">myport-blush.vercel.app</p>
+                      </a>
                     </div>
                   </div>
 
@@ -148,24 +166,11 @@ const Resume = () => {
                         <p className="font-[400]"> R.T.M. Nagpur University</p>
                         <p>2015-2020</p>
                      </div>
-                  </div>
-
-                  {/* {Soft Skill} */}
-                  <div className="flex flex-col gap-3">
                      <div>
-                     <h1 className="capitalize text-[#fa2d5a]  font-poppins text-xl">Soft Skills</h1>
+                        <h2 className="text-[#121212] font-[500]">Higher Secoundary</h2>
+                        <p className="font-[400]">Sushil Himmat Singhaka vidylaya </p>
+                        <p>2013-2015</p>
                      </div>
-                       <ul className="list-disc">
-                         <li>Problem Solving</li>
-                         <li>Adaptibility</li>
-                         <li>Time Management</li>
-                         <li>Teamwork</li>
-                         <li>Leadership</li>
-                         <li>Decision-making</li>
-                         <li>Collaborative</li>
-                         <li>Api Integration / Microservices</li>
-                         <li>Planning / Analize</li>
-                       </ul>
                   </div>
 
                    
@@ -180,7 +185,7 @@ const Resume = () => {
                         </div>
                         <div>
                            <p className="text-left">
-                           Software Enthusiast : Passionate about Crafting Dynamic Web Solutions.   Committed to Continuous Learning, Collaboration and Making Meaningful Contributions to the Evolving Landscape of Web Development.
+                           Detail-oriented and tech-driven, always learning and adapting to new challenges. Thrives in fast-paced environments, collaborating effectively to deliver impactful solutions. Passionate about building innovative, user-focused digital experiences.
 
                            </p>
                         </div>
@@ -194,48 +199,24 @@ const Resume = () => {
                   {/* Experience */}
                     <div className="flex flex-col gap-3">
                         <div>
-                        <h1 className="capitalize text-[#fa2d5a]  font-poppins text-xl">Training & Certifications</h1>
+                        <h1 className="capitalize text-[#fa2d5a]  font-poppins text-xl">Experience</h1>
                         </div>
                         <div>
-                           <h2 className="text-[#000000] text-[14px] font-[500] ">
-                              P.M.K.V.Y Skill India 
+                           <h2 className="text-[#000000] text-lg font-[500] ">
+                              Full-Stack Developer
+                              <span className="text-[12px] ml-20">Served: 3 Years+ </span>
                            </h2>
-                           <h3 className="text-[#545454] font-[500]">Softare Developement Training & Certification</h3>
+                           <span className="text-gray-400 font-[500] text-[14px]">Techsunset,Bengaluru</span>
+                           <span className="text-[#545454] font-[500] ml-28">July 21 - 2025</span>
                            <ul className="mt-2 list-disc" >
-                              <li>Trained in Backend Development using Nodejs with Express and MongoDB.</li>
-                              <li>Knowledge of IT services and industry, Delivery models.</li>
-                              <li>Process of Software & Application Development (SDLC).</li>                            
-                              <li>Work requirements, Tools and Software job role.</li>                            
+                              <li>Spearheaded the development of dynamic user interfaces and robust RESTful APIs, utilizing React and Next.js for front-end development, and Node.js with Express for back-end services.</li>
+                              <li>Architected and implemented scalable web and mobile applications, ensuring seamless integration with MongoDB for efficient data management and retrieval.</li>
+                              <li>Collaborated with cross-functional teams to deliver high-quality software solutions, addressing both client and business requirements.</li>                            
+                              <li>Contributed to the entire software development lifecycle, including planning, design, coding, testing, and deployment, while adhering to best practices and industry standards.</li>                            
                            </ul>
-                              <p>Duration : 3 Months </p>
+                              
                         </div>
-                        <div>
-                           <h2 className="text-[#000000] text-[14px] font-[500] ">
-                              Maha Mission Education & Carrier Council
-                           </h2>
-                           <h3 className="text-[#545454] font-[500]"> Full Stack Web Developement with AI Training & Certification</h3>
-                           <ul className="mt-2 list-disc">
-                              <li>Developed custom web design solution for the clients.</li>
-                               <li>Collaborated with businesses and helped to solve the business problems.</li>
-                               <li>Skilled in teamwork, adaptability and timely deliveries.</li>
-                               <li>Participated in various coding platforms like Hacker Rank, Code zinger,
-                               Leetcode.</li>
-                           </ul>
-                              <p>Duration : 8 Months
-                              </p>
-                        </div>
-                        {/* <div>
-                           <h2 className="text-[#000000] font-[500] ">
-                                MaxoTag Technologies O.P.C. Pvt. Ltd
-                           </h2>
-                           <h3 className="text-[#545454] font-[500]">Full Stack Web Developement Training + Internship</h3>
-                           <ul className="mt-2">
-                              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, maxime?
-                              </li>
-                              <li>Duration : 6 Months
-                              </li>
-                           </ul>
-                        </div> */}
+                      
                     </div>
                   
                     <div className="border-solid border-b border-[#4671ff] my-4"></div>
@@ -244,67 +225,78 @@ const Resume = () => {
                         <div>
                         <h1 className="capitalize text-[#fa2d5a]  font-poppins text-xl">Projects</h1>
                         </div>
-                        <div>
-                           <h2 className="text-[#000000] text-[14px] font-[500] ">
-                               MERN Estate
-                           </h2>
+                        <div>                         
+                          <a href="https://www.holidify.com/" className="text-blue-700 text-lg flex justify-start items-center underline"><FaGlobe/>
+                           <span className="text-blue-700 text-[14px] font-[500] ml-3 ">
+                              HOLIDIFY
+                           </span>
+                           </a>
+                         
                            <ul>
-                               <li><h3>Tech Stack: JavaScript, NodeJS, ReactJs, ExpressJs MongoDB.
-                               ( MERN/Full Stack )</h3></li>
-                              <li>Real Estate is a leading real estate agency that specializes in helping clients buy, 
-sell and rent property in the most desirable neighborhood. ( Seamless search 
-functionality, Advanced Authentication, Google OAUTH, Redux, CRUD etc)
+                              <li>A travel booking site offers flights, hotels, packages, and insurance, helping users compare, book, and plan trips easily.
 
                               </li>
                              
                            </ul>
                         </div>
-                        <div>
-                           <h2 className="text-[#000000] text-[14px] font-[500] ">
-                           BhumizCart(E- Commerce Shopping Cart)
-                           </h2>
+          
+                        <div>                         
+                          <a href="https://www.tgifindia.com/" className="text-blue-700 text-lg flex justify-start items-center underline"><FaGlobe/>
+                           <span className="text-blue-700 text-[14px] font-[500] ml-3 ">
+                              TGIFINDIA
+                           </span>
+                           </a>
+                         
                            <ul>
-                           <li><h3>Tech Stack: JavaScript, NodeJS, ReactJs, ExpressJs MongoDB.
-                           ( MERN/Full Stack )</h3></li>
-                              <li>Build a fully-functional e-commerce website like amazon. Using MERN
-Stack create sign-in, signup, cart, payment, payment Gateway methods
-and Deploy on site using render.com
+                              <li>“Casual Dining” segment in the restaurant industry,vision is to create ultimate singles bar.
+
                               </li>
+                             
                            </ul>
                         </div>
-                        <div>
-                           <h2 className="text-[#000000] text-[14px] font-[500] ">
-                               Expense Tracker
-                           </h2>
+                        <div>                         
+                          <a href="https://www.holidify.com/" className="text-blue-700 text-lg flex justify-start items-center underline"><FaGlobe/>
+                           <span className="text-blue-700 text-[14px] font-[500] ml-3 ">
+                              MCC.edu
+                           </span>
+                           </a>
+                         
                            <ul>
-                           <li><h3>Tech Stack: Netlify, NodeJS, ReactJs, ExpressJs MongoDB.
-                           ( MERN/Full Stack )</h3></li>
-                              <li>Add your daily expenses or Items you have sold and get the details to your daily expense and earnings with the help of candel chart feature. (useState ,useEffect Hooks props, add ,delete feature etc.)
+                              <li>An educational platform offers online courses, live classes, and certifications with interactive learning and assessments.
+
                               </li>
+                             
                            </ul>
                         </div>
-                        <div>
-                           <h2 className="text-[#000000] text-[14px] font-[500] ">
-                               My Portfolio
-                           </h2>
+                        <div>                         
+                          <a href="https://www.mayaarchitects.com/" className="text-blue-700 text-lg flex justify-start items-center underline"><FaGlobe/>
+                           <span className="text-blue-700 text-[14px] font-[500] ml-3 ">
+                              MAYA ARCHITECTS
+                           </span>
+                           </a>
+                         
                            <ul>
-                           <li><h3>Tech Stack: Vercel, NodeJS, ReactJs, ExpressJs Tailwind.
-                          </h3></li>
-                              <li>My Portfolio is my personal portfolio with resume downloadable links, and one 
-stop to see my all the projects and work (ant-design, framer motion, 
-animations, react router.)
+                              <li> Maya Architects offers the Architectural Consultancy, Interior Design and Project Management Consultancies.
+
                               </li>
+                             
                            </ul>
                         </div>
-                        {/* <div>
-                           <h2 className="text-[#000000] text-[14px] font-[500] ">
-                               MERN Blog
-                           </h2>
+                        <div>                         
+                          <a href="https://chennaitaxiservice.com/" className="text-blue-700 text-lg flex justify-start items-center underline"><FaGlobe/>
+                           <span className="text-blue-700 text-[14px] font-[500] ml-3 ">
+                              CHENNAI TAXI SERVICE
+                           </span>
+                           </a>
+                         
                            <ul>
-                              <li>Advanced Authentication Search functionality, React Router DOM, Google OAUTH  intigration, Redux, CRUD etc.
+                              <li>Chennai taxi service has been around for over three decades. Our Chennai taxi service is known for its reliability, quality and safety.
+
                               </li>
+                             
                            </ul>
-                        </div> */}
+                        </div>
+                       
                     </div>
     
                </article>
@@ -334,29 +326,14 @@ animations, react router.)
         </div>
 
         <div className="absolute top-[60px] left-[200px] bg-red-600 w-[115px] h-[115px] z-50 rounded-full overflow-hidden">
-          <img src="/blazerImg.png" alt="profile" className="object-cover" />
+          <img src="/emp4.png" alt="profile" className="object-cover" />
         </div>
         
       
         </div>
   </div>
+  </>
   );
 };
 
 export default Resume;
-
-
-
-
-
-//  {/* Certifications */}
-
-//  <div className="flex flex-col gap-3">                   
-//  <div>
-//  <h1 className="capitalize text-[#fa2d5a]  font-poppins text-xl">Certifications</h1>
-//  </div>
-//  <div>
-//     <h2> Full stack development with AI  Maharashtra mission education council, Pune </h2>
-//     <p>2019-2020</p>
-//  </div>
-// </div>
