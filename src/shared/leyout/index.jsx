@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
     // Redirect to /portfolio only on the first visit
     if (!hasVisited && location.pathname === "/") {
       sessionStorage.setItem("hasVisited", "true");
-      navigate("/portfolio");
+      navigate("/");
     }
   }, [location.pathname, navigate]);
 

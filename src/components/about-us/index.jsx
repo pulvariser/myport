@@ -16,7 +16,8 @@ const  About  = () => {
       },
       {  
         info:'email :',
-        value:'dev97techsunset@gmail.com'
+        value: <a href="mailto:dev97techsunset@gmail.com"  target='_blank'
+        rel='noopener noreferrer' className="text-blue-800">dev97techsunset@gmail.com</a>
       },
       {  
        info:'date of birth :',
@@ -43,8 +44,9 @@ const  About  = () => {
        value:'Nalwadi Wardha 442001'
      },
      {  
-      info:'freelance :',
-       value:'Available'
+      info:'LinkedIn :',
+       value: <a href="https://www.linkedin.com/in/er-mayur-burange-020215200/"  target='_blank'
+       rel='noopener noreferrer' className="text-blue-800">https://www.linkedin.com</a>
      },
      {  
       info:'website :',
@@ -60,11 +62,11 @@ const  About  = () => {
     },
     {
       icon:'fa fa-coffee',
-      text:'600+ Cup of  Coffee'
+      text:'3+ Years Experience'
     },
     {
       icon:'fa fa-smile-o',
-      text:'12+ Satisfied  Clients'
+      text:'500+ Satisfied  Clients'
     },
     // {
     //   icon:'fa fa-certificate',
@@ -76,7 +78,7 @@ const  About  = () => {
     // },
     {
       icon:'fa fa-code',
-      text:'12000+ Lines of Codes'
+      text:'100+ Success Stories'
     },
    ]
   

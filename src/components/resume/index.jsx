@@ -40,7 +40,8 @@ const Resume = () => {
                     <div className="text-[#fa2d5a] text-lg">
                       <i className="fa fa-envelope  "></i>
                       </div>
-                      <a href="mailto:dev97techsunset@gmail.com">
+                      <a href="mailto:dev97techsunset@gmail.com"  target='_blank'
+                          rel='noopener noreferrer'>
                       <p className="text-blue-700">dev97techsunset@gmail.com</p>
                       </a>
                     </div>
@@ -52,10 +53,11 @@ const Resume = () => {
                     </div>
                     <div className="flex gap-4 items-center">
                     <div className="text-[#fa2d5a] text-lg">
-                      <i className="fa fa-globe"></i>
+                    <i class="fa fa-linkedin"></i>
                       </div>
-                      <a href="https://myport-blush.vercel.app">
-                      <p className="text-blue-700">myport-blush.vercel.app</p>
+                      <a href="https://www.linkedin.com/in/er-mayur-burange-020215200/"  target='_blank'
+                        rel='noopener noreferrer' >
+                      <p className="text-blue-700">LinkedIn</p>
                       </a>
                     </div>
                   </div>

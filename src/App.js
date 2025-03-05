@@ -32,15 +32,16 @@ function AppContent() {
   useEffect(() => {
     const downloadFile = () => {
       const link = document.createElement('a');
-      link.href = '/mayur-res.pdf'; // relative path to your PDF in the public folder
-      link.download = 'mayur-res.pdf'; // Optional: specify download file name
+      link.href = '/MAYUR_BURANGE_MERN_STACK_RESUME.pdf'; 
+      link.download = 'MAYUR_BURANGE_MERN_STACK_RESUME.pdf'; 
       document.body.appendChild(link);
       link.click();
-      document.body.removeChild(link); // Clean up after download
+      document.body.removeChild(link);
     };
 
     downloadFile();
-  }, []); // Empty dependency array ensures it runs only once on mount
+  }, []); 
+  
 
   return (
     <div >

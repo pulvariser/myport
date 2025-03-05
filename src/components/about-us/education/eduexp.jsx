@@ -15,12 +15,6 @@ const EduExp = () => {
           subTitle : 'sushil himmat singhka vidyalay',
           desc : 'I have completed my Higher Secoundary education with first class.'
         },
-        // {
-        //   duration : '2015 - 2020',
-        //   title : 'commerse degree',
-        //   subTitle : 'nagpur university',
-        //   desc : 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet diam nonummy.'
-        // },
         
       
 ]
@@ -39,12 +33,7 @@ const EduExp = () => {
       subTitle : 'Online Institution',
       desc : 'I have completed the MERN Stack Software Developement Course & Training with certification.'
     },
-    // {
-    //   duration : '2015 - 2020',
-    //   title : 'engineering degree',
-    //   subTitle : 'nagpur university',
-    //   desc : 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet diam nonummy.'
-    // },
+  
    
    ]
 

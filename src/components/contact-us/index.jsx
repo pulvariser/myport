@@ -16,13 +16,15 @@ const details = [
   },
   {
     icon : 'fa fa-envelope text-[#fa2d5a]',
-    title : 'location',
-    desc : 'dev97techsunset@gmail.com'
+    title : 'Email',
+    desc : <a href="mailto:dev97techsunset@gmail.com"  target='_blank'
+              rel='noopener noreferrer' className='text-blue-800'>dev97techsunset@gmail.com</a>
   },
   {
-    icon : 'fa fa-globe text-[#fa2d5a]',
+    icon : 'fa fa-linkedin text-[#fa2d5a]',
     title : 'website',
-    desc : 'https://myport-blush.vercel.app/'
+    desc :<a href='https://myport-blush.vercel.app'  target='_blank'
+             rel='noopener noreferrer' className='text-blue-800'>LinkedIn</a>
   },
 ]
 
