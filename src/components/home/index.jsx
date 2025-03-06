@@ -94,7 +94,7 @@ const Home = () => {
                  I Am a{' '}
                 <span style={{ color: '#fa2d5a',fontFamily:'poppins', fontWeight: '900', fontSize:'44px'}}>
              <Typewriter
-            words={['Web Developer.', 'Full Stack Engineer.','MERN Stack', 'ReactJs Developer.']}
+            words={['Web Developer.', 'Full Stack Engineer.','MERN Stack Developer', 'ReactJs Developer.']}
             loop={0}
             cursor
             cursorStyle='|'
