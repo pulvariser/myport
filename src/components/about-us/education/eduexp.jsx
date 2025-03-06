@@ -22,7 +22,7 @@ const EduExp = () => {
 
    const expDetails = [
     {
-      duration : 'Jun 2021 - Feb 2025',
+      duration : 'June 2021 - Feb 2025',
       title : 'TechSunset',
       subTitle : 'Full Stack Web Developer (3.5+ Years)',
       desc : 'TechSunset IT service based company, which deals in web and mobile application developement.'

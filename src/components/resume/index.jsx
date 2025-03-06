@@ -206,10 +206,10 @@ const Resume = () => {
                         <div>
                            <h2 className="text-[#000000] text-lg font-[500] ">
                               Full-Stack Developer
-                              <span className="text-[12px] ml-20">Served: 3 Years+ </span>
+                              <span className="text-[12px] ml-20">Served: 3.5 Years+ </span>
                            </h2>
                            <span className="text-gray-400 font-[500] text-[14px]">Techsunset,Bengaluru</span>
-                           <span className="text-[#545454] font-[500] ml-28">July 21 - 2025</span>
+                           <span className="text-[#545454] font-[500] ml-28">June 21 - 2025</span>
                            <ul className="mt-2 list-disc" >
                               <li>Spearheaded the development of dynamic user interfaces and robust RESTful APIs, utilizing React and Next.js for front-end development, and Node.js with Express for back-end services.</li>
                               <li>Architected and implemented scalable web and mobile applications, ensuring seamless integration with MongoDB for efficient data management and retrieval.</li>
