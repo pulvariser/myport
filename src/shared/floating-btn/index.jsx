@@ -12,13 +12,17 @@ const FloatingButtons = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-       
+
+  const playNotificationSound = () => {
+    const audio = new Audio("/notification.mp3"); // Ensure you have this file in your public folder
+    audio.play().catch((err) => console.log("Audio play failed:", err));
+  };
+
 
   useEffect(() => {
     const audio = new Audio("/notification.mp3"); // Ensure you have this file in your public folder
     audio.play().catch((err) => console.log("Audio play failed:", err));
   }, []);
-
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -33,6 +37,7 @@ const FloatingButtons = () => {
             href="https://wa.me/+917666895303"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={playNotificationSound}
           >
             <div className="flex items-center justify-center rounded-full w-10 md:w-14 md:h-14 h-10 bg-[#ff014f] cursor-pointer group relative">
               <div className="h-2 md:h-2.5 w-2 md:w-2.5 rounded-full bg-[#25d366] absolute top-0.5 md:top-1 right-0.5 md:right-1"></div>

@@ -53,7 +53,7 @@ const Resume = () => {
                     </div>
                     <div className="flex gap-4 items-center">
                     <div className="text-[#fa2d5a] text-lg">
-                    <i class="fa fa-linkedin"></i>
+                    <i className="fa fa-linkedin"></i>
                       </div>
                       <a href="https://www.linkedin.com/in/er-mayur-burange-020215200/"  target='_blank'
                         rel='noopener noreferrer' >
