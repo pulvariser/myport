@@ -22,13 +22,13 @@ const EduExp = () => {
 
    const expDetails = [
     {
-      duration : 'Jan 2022 - Feb 2025',
+      duration : 'Jun 2021 - Feb 2025',
       title : 'TechSunset',
-      subTitle : 'Full Stack Web Developer (3+ Years)',
+      subTitle : 'Full Stack Web Developer (3.5+ Years)',
       desc : 'TechSunset IT service based company, which deals in web and mobile application developement.'
     },
     {
-      duration : 'Jan 2021 - Dec 2021',
+      duration : 'May 2020 - May 2021',
       title : 'Wap Institue',
       subTitle : 'Online Institution',
       desc : 'I have completed the MERN Stack Software Developement Course & Training with certification.'

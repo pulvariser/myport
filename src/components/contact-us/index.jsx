@@ -29,7 +29,7 @@ const Contact = () => {
       ),
     },
     {
-      icon: 'fa fa-linkedin text-[#fa2d5a]',
+      icon: 'fa fa-globe text-[#fa2d5a]',
       title: 'website',
       desc: (
         <a
@@ -38,7 +38,7 @@ const Contact = () => {
           rel="noopener noreferrer"
           className="text-blue-800"
         >
-          LinkedIn
+           https://myport-blush.vercel.app
         </a>
       ),
     },

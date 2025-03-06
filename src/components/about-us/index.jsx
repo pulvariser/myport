@@ -44,9 +44,8 @@ const  About  = () => {
        value:'Nalwadi Wardha 442001'
      },
      {  
-      info:'LinkedIn :',
-       value: <a href="https://www.linkedin.com/in/er-mayur-burange-020215200/"  target='_blank'
-       rel='noopener noreferrer' className="text-blue-800">https://www.linkedin.com</a>
+      info:'Freelance :',
+       value: 'Available'
      },
      {  
       info:'website :',
@@ -62,20 +61,13 @@ const  About  = () => {
     },
     {
       icon:'fa fa-coffee',
-      text:'3+ Years Experience'
+      text:'3.5+ Years Experience'
     },
     {
       icon:'fa fa-smile-o',
       text:'500+ Satisfied  Clients'
     },
-    // {
-    //   icon:'fa fa-certificate',
-    //   text:'8.5 Years Job Experience'
-    // },
-    // {
-    //   icon:'fa fa-trophy',
-    //   text:'50+ Awards Winners'
-    // },
+
     {
       icon:'fa fa-code',
       text:'100+ Success Stories'

@@ -32,8 +32,8 @@ function AppContent() {
   useEffect(() => {
     const downloadFile = () => {
       const link = document.createElement('a');
-      link.href = '/MAYUR_BURANGE_MERN_STACK_RESUME.pdf'; 
-      link.download = 'MAYUR_BURANGE_MERN_STACK_RESUME.pdf'; 
+      link.href = '/MAYUR_BURANGE_MERN_STACK_RESUME1.pdf'; 
+      link.download = 'MAYUR_BURANGE_MERN_STACK_RESUME1.pdf'; 
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
